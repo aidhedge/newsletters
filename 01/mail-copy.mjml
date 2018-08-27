@@ -8,7 +8,39 @@
       <mj-section padding="0px"></mj-section>
     </mj-attributes>
     <mj-style>
+.default-col-img{
+  max-width:0px;
+  width:0px; 
+  max-height: 0px; 
+  font-size: 0; 
+  display: none; 
+}
 
+.default-col-img img{
+  display:none;
+}
+
+.default-col{
+  width:100%;
+  min-width:100%;
+}
+@media all and (min-width: 480px){
+  .default-col {
+    width:50% !important; 
+    min-width:50% !important; 
+    max-width:50% !important;
+
+  }
+  .default-col-img{
+  width:50% !important; 
+  min-width:50% !important;
+  max-width:50% !important; 
+
+}
+.default-col-img img{
+  display:inline-block;
+}
+}
      
 </mj-style>
   </mj-head>
@@ -52,26 +84,27 @@
    <mj-section padding-top="40px" background-color="#f6f9fc">
       <mj-column width="100%">
       <mj-text align="center" font-weight="500" padding="10px 10px 0px 10px" font-size="20px" line-height="20px" text-transform="uppercase" color="#68d4f8">A new site for a fresh start</mj-text>
-        <mj-text color="#525f7f" align="center" padding="20px 20px 20px 20px" font-weight="300" padding-bottom="40px">Last week we launched a completely new website. The site not only provides a new design but also allows us to better communicate what we do. The objective has been to get you more by doing less. We have cut down on the clutter, highlighting all the cool things we do. And the same has been implemented throughout the entire platform for all users!</mj-text>
-
-    <mj-image src="https://s3-eu-west-1.amazonaws.com/aidhedge-newsletter/homepage.png" alt="" align="center" width="500px" border="none" padding="0px"></mj-image>
-
-          <mj-button href="https://www.aidhedge.org" align="center" background-color="#5166af" color="#FFFFFF" border-radius="4px" href="#" inner-padding="10px 17px" padding-bottom="24px" padding-top="20px">VISIT NEW SITE</mj-button>
+        <mj-text color="#525f7f" align="center" padding="20px 20px 20px 20px" font-weight="300">Last week we launched a completely new website. The site not only provides a new design but also allows us to better communicate what we do. The objective has been to get you more by doing less. We have cut down on the clutter, highlighting all the cool things we do. And the same has been implemented throughout the entire platform for all users!</mj-text>
+          <mj-button href="https://www.aidhedge.org" align="center" background-color="#68d4f8" color="#FFFFFF" border-radius="4px" href="#" inner-padding="10px 17px" padding-bottom="24px" padding-top="20px">VISIT NEW SITE</mj-button>
 </mj-column>
 </mj-section>
+
 
 <mj-section background-color="#f6f9fc">
       <mj-column>
         <mj-divider border-width="2px" border-style="solid" border-color="#ECF1F5" />
       </mj-column>
     </mj-section>
-    
+
   <mj-section background-color="#f6f9fc">
  <mj-group>
+  <mj-column css-class="default-col-img">
+        <mj-image  padding="30px 30px 0px 25px"src="https://s3-eu-west-1.amazonaws.com/aidhedge-newsletter/complex-project.png" alt="" align="center" border="none" padding="0px"></mj-image>
+</mj-column>
       <mj-column css-class="default-col">
       <mj-text align="center" font-weight="500" padding="30px 20px 0px 25px" font-size="20px" line-height="20px" text-transform="uppercase" color="#32325d">Cases</mj-text>
-        <mj-text padding-bottom="40px" color="#525f7f" align="center"  
-        font-weight="300">During the last year, we have been working with our partners trying out ways to improve how the do transactions and financial management. Getting more and better funding to projects and recipients. Check out a few examples, covering <a href="https://story.aidhedge.org/world-vision-case-currency-risk-in-a-multi-partner-and-multi-country-project-6478aa275642">budget and risk in complex projects</a>, <a href="https://story.aidhedge.org/more-funding-with-better-fx-transactions-the-case-of-social-initiative-f149655aef2d">better transactions</a> and <a href="https://story.aidhedge.org/case-predictable-funding-to-india-5efeda855fe7">predictable funding</a>.More coming soon!</mj-text>
+        <mj-text color="#525f7f" align="center"  
+        font-weight="300">During the last year, we have been working with our partners trying out ways to improve how the do transactions and financial management. Getting more and better funding to projects and recipients. Check out a few examples, covering<a href="https://story.aidhedge.org/world-vision-case-currency-risk-in-a-multi-partner-and-multi-country-project-6478aa275642">budget and risk in complex projects</a>, <a href="https://story.aidhedge.org/more-funding-with-better-fx-transactions-the-case-of-social-initiative-f149655aef2d">better transactions</a> and <a href="https://story.aidhedge.org/case-predictable-funding-to-india-5efeda855fe7">predictable funding</a>. More coming soon!</mj-text>
 </mj-column>
  </mj-group>
 
@@ -90,14 +123,17 @@
 
   <mj-section background-color="#f6f9fc">
    <mj-group>
+  <mj-column css-class="default-col-img" >
+<mj-image padding="10px 30px 0px 25px"src="https://s3-eu-west-1.amazonaws.com/aidhedge-newsletter/www.aidhedge.org_concepts.png" alt="" align="center" border="none" padding="0px"></mj-image>
+</mj-column>
       <mj-column css-class="default-col">
-      <mj-text align="center" font-weight="500" padding="30px 20px 0px 25px"  font-size="20px" line-height="20px" text-transform="uppercase" color="#32325d">Whitepapers och concepts</mj-text>
-        <mj-text padding-bottom="30px" color="#525f7f" align="center"  font-weight="300">We come across new ideas and solutions all the time. There is so much innovation just waiting to happen! We can't do it all, not without partners. What we have done is to collect the best thoughts and concepts in one place, so you can read up on the next big thing.Perhaps there is a project there waiting for you? </mj-text>
+      <mj-text align="center" font-weight="500" padding="10px 20px 10px 10px"  font-size="20px" line-height="20px" text-transform="uppercase" color="#32325d">Whitepapers och concepts</mj-text>
+        <mj-text color="#525f7f" align="center"  font-weight="300">We come across new ideas and solutions all the time. There is so much innovation just waiting to happen! We can't do it all, not without partners. What we have done is to collect the best thoughts and concepts in one place, so you can read up on the next big thing. Perhaps there is a project there waiting for you? </mj-text>
 </mj-column>
 </mj-section>
   <mj-section background-color="#f6f9fc">
       <mj-column width="100%">
-        <mj-button align="center" background-color="#5166af" color="#FFFFFF" border-radius="4px" href="https://www.aidhedge.org/concepts" inner-padding="10px 17px" padding-bottom="40px" padding-top="0">SEE ALL CONCEPTS</mj-button>
+        <mj-button align="center" background-color="#5166af" color="#FFFFFF" border-radius="4px" href="https://www.aidhedge.org/concepts" inner-padding="10px 17px" padding-bottom="24px" padding-top="20px">SEE ALL CONCEPTS</mj-button>
       </mj-column>
        </mj-group>
     </mj-section>
@@ -120,13 +156,13 @@
 
   <mj-section  background-color="#32325d">
       <mj-column width="100%">
-        <mj-text padding-bottom="30px"  color="#9cdbff" align="center" font-weight="300">In the end of May, a new and unique study was published by the Expert Group for Aid Studies, EBA. The report, authored by our director Númi Östlund, analyses the financial risk created by Swedish donor commitments in ODA. One conclusion is that there are significant improvements just waiting to happen. These solutions could provide more and better funding.
+        <mj-text color="#9cdbff" align="center" padding="20px 20px 20px 20px" font-weight="300">In the end of May, a new and unique study was published by the Expert Group for Aid Studies, EBA. The report, authored by our director Númi Östlund, analyses the financial risk created by Swedish donor commitments in ODA. One conclusion is that there are significant improvements just waiting to happen. These solutions could provide more and better funding.
 </mj-text>
 </mj-column>
 </mj-section>
   <mj-section background-color="#32325d">
       <mj-column width="100%">
-        <mj-button align="center" font-weight="600" background-color="#fff" color="#32325d" border-radius="4px" href="http://eba.se/how-predictable-is-swedish-aid-a-study-of-exchange-rate-volatility/" inner-padding="10px 17px" padding-bottom="24px" padding-top="0">READ REPORT</mj-button>
+        <mj-button align="center" font-weight="600" background-color="#fff" color="#32325d" border-radius="4px" href="http://eba.se/how-predictable-is-swedish-aid-a-study-of-exchange-rate-volatility/" inner-padding="10px 17px" padding-bottom="24px" padding-top="20px">READ REPORT</mj-button>
       </mj-column>
     </mj-section>
     
@@ -136,7 +172,7 @@
 
 
 <mj-section background-color="#f6f9fc">
-<mj-column padding-top="10px"  border-right="2px solid #ECF1F5">
+<mj-column padding-top="0px"  border-right="2px solid #ECF1F5">
         <mj-social align="center" font-size="15px" icon-size="25px" mode="horizontal">
           <mj-social-element name="twitter" href="https://twitter.com/aidhedge" background-color="#5166af">
           </mj-social-element>
@@ -147,7 +183,7 @@
         </mj-social>
       </mj-column>
      
-      <mj-column padding-top="20px">
+      <mj-column padding-top="0px">
         <mj-text align="center" color="#666" font-size="11px">
      AIDHEDGE 2018
         </mj-text>
