@@ -7,42 +7,55 @@
       <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px"></mj-text>
       <mj-section padding="0px"></mj-section>
     </mj-attributes>
+    
     <mj-style>
+a{
+    text-decoration:none;
+    color:#007bff
+}
+a:visited{
+    text-decoration:none;
+    color:#007bff
+}
+.bold-text{
+    font-weight:300
+}
 
-     
+.hide_on_mobile { display: none !important;}
+.hide_on_desktop { display: none !important;}
+@media only screen and (min-width: 480px) { .hide_on_mobile { display: block !important;} }
+@media only screen and (max-width: 480px) { .hide_on_desktop  { display: block !important;} }
 </mj-style>
   </mj-head>
 
-  <mj-body background-color="#fff">
+  <mj-body background-color="#f6f9fc">
  <mj-section padding-top="40px" background-color="#fff">
-      <mj-column width="100%">
+      <mj-column width="600px">
         <mj-image href="https://www.aidhedge.org" padding-left="40px" width="105px" height="13px" padding-top="0px" align="left"  src="https://s3-eu-west-1.amazonaws.com/aidhedge-newsletter/logo-dark.png"/>
-    
 </mj-column>
 </mj-section>
     
  <mj-hero
-      mode="fixed-height"
-      height="229px"
-      background-width="600px"
-      background-height="10px"
-      background-url="https://s3-eu-west-1.amazonaws.com/aidhedge-newsletter/beta-banner-mail2.png"
-      background-color="#fff"
-      padding-bottom="10px"
+      height="233px"
+      background-width="100%"
+      background-height="233px"
+      background-url="https://s3-eu-west-1.amazonaws.com/aidhedge-newsletter/beta-banner-mail-2.png"
+      background-color="#f6f9fc"
+      padding-bottom="0px"
       >
       <mj-text align="center" font-weight="500" padding="85px 50px 0px 50px" font-size="24px" line-height="20px" text-transform="uppercase" color="#32325d">Join our beta</mj-text>
-      </mj-hero>
+</mj-hero>
   
 
    
-
-   <mj-section padding-top="50px" background-color="#fff">
+    <mj-wrapper css-class="hide_on_mobile" background-color="#f6f9fc">
+   <mj-section padding-top="40px">
       <mj-column width="100%">
       <mj-text align="center" font-weight="500" padding="0px 50px 0px 50px" font-size="20px" line-height="20px" text-transform="uppercase" color="#32325d">The first step towards better funding — join our new beta program!</mj-text>
-        <mj-text color="#424770" align="center" padding="20px 60px 20px 60px" font-weight="300">After about a year of lessons learned together with early-stage partners, we will be rolling out our platform on a broader scale. To make sure we do it with maintaining high quality we have designed a beta test program to follow some users more closely. Our hope is to (again) benefit from all the great insight and feedback partners can provide — and using that to improve the platform for all!</mj-text>
+        <mj-text color="#424770" align="center" padding="20px 60px 20px 60px" font-weight="300">After about a year of lessons learned together with early-stage partners, we will be rolling out our platform on a broader scale. <a href="https://story.aidhedge.org/the-first-step-towards-better-funding-join-our-new-beta-program-f4065716b894"><span class="bold-text">To make sure we do it maintaining high quality we have designed a beta test program to follow some users more closely.<span></a> Our hope is to (again) benefit from all the great insight and feedback partners can provide — and using that to improve the platform for all!</mj-text>
 
         
-        <mj-text color="#24b47e" align="center" padding="0px 60px 20px 60px" font-weight="500">Do you one or more international projects? Interested in how you could optimize the budget (funding and/or costs)?</mj-text>
+        <mj-text color="#24b47e" align="center" padding="0px 60px 20px 60px" font-weight="500">Do you have one or more international projects? Are you interested in how you could optimize the budget (funding and/or costs)?</mj-text>
 
         <mj-text color="#424770" align="center" padding="0px 60px 0px 60px" font-weight="500">Don’t hesitate! Get in touch and join the beta!
         </mj-text>
@@ -50,7 +63,7 @@
         <mj-text color="#424770" align="center" padding="0px 60px 0px 60px" font-weight="300">(it completely free, and will take very very little time! We promise the time spent will be rewarded with great insights).
         </mj-text>
 
-        <mj-text color="#424770" align="center" padding="20px 60px 0px 60px" font-weight="300">Just email Númi, and he will make sure you are onboard the program!
+        <mj-text color="#424770" align="center" padding="20px 60px 0px 60px" font-weight="300">Just email <a href="mailto:numi.ostlund@aidhedge.org">Númi</a>, and he will make sure you are onboard the program!
         </mj-text>
 
             
@@ -58,18 +71,49 @@
           
 </mj-column>
 </mj-section>
-<mj-section padding-top="0px" padding-bottom="30px" background-color="#fff">
-      <mj-column width="50%" padding-left="40%">
+</mj-wrapper>
+
+    <mj-wrapper css-class="hide_on_desktop" background-color="#f6f9fc">
+   <mj-section padding-top="40px">
+      <mj-column width="100%">
+      <mj-text align="center" font-weight="500" padding="0px 10px 0px 10px" font-size="20px" line-height="20px" text-transform="uppercase" color="#32325d">The first step towards better funding — join our new beta program!</mj-text>
+        <mj-text color="#424770" align="center" padding="20px 10px 20px 10px" font-weight="300">After about a year of lessons learned together with early-stage partners, we will be rolling out our platform on a broader scale. <a href="https://story.aidhedge.org/the-first-step-towards-better-funding-join-our-new-beta-program-f4065716b894"><span class="bold-text">To make sure we do it maintaining high quality we have designed a beta test program to follow some users more closely.<span></a> Our hope is to (again) benefit from all the great insight and feedback partners can provide — and using that to improve the platform for all!</mj-text>
+
+        
+        <mj-text color="#24b47e" align="center" padding="0px 10px 20px 10px" font-weight="500">Do you have one or more international projects? Are you interested in how you could optimize the budget (funding and/or costs)?</mj-text>
+
+        <mj-text color="#424770" align="center" padding="0px 10px 0px 10px" font-weight="500">Don’t hesitate! Get in touch and join the beta!
+        </mj-text>
+
+        <mj-text color="#424770" align="center" padding="0px 10px 0px 10px" font-weight="300">(it completely free, and will take very very little time! We promise the time spent will be rewarded with great insights).
+        </mj-text>
+
+        <mj-text color="#424770" align="center" padding="20px 10px 0px 10px" font-weight="300">Just email <a href="mailto:numi.ostlund@aidhedge.org">Númi</a>, and he will make sure you are onboard the program!
+        </mj-text>
+
+            
+      
+          
+</mj-column>
+</mj-section>
+</mj-wrapper>
+
+<mj-section padding-top="0px" padding-bottom="30px" background-color="#f6f9fc">
+      <mj-column width="50%">
           <mj-button href="mailto:numi.ostlund@aidhedge.org" align="center" background-color="#5166af" color="#FFFFFF" border-radius="4px" href="#" inner-padding="10px 17px" padding-bottom="24px" padding-top="20px">JOIN BETA</mj-button>
       </mj-column>
-      <mj-column width="50%" padding-right="40%">
+      <mj-column width="50%">
           <mj-button href="https://story.aidhedge.org/the-first-step-towards-better-funding-join-our-new-beta-program-f4065716b894" align="center" background-color="#5166af" color="#FFFFFF" border-radius="4px" href="#" inner-padding="10px 17px" padding-bottom="24px" padding-top="20px">READ MORE</mj-button>
       </mj-column>
       </mj-section>
 
 
 
-
+<mj-section background-color="#f6f9fc">
+      <mj-column>
+        <mj-divider border-width="2px" border-style="solid" border-color="#ECF1F5" />
+      </mj-column>
+    </mj-section>
 
 <mj-section background-color="#f6f9fc">
 <mj-column padding-top="20px"  border-right="2px solid #ECF1F5" vertical-align="middle">
