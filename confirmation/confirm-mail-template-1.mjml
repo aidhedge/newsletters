@@ -1,0 +1,104 @@
+<mjml>
+  <mj-head>
+    <mj-title>Aidhedge newletter</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Helvetica, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px"></mj-text>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+    
+    <mj-style>
+a{
+    text-decoration:none;
+    color:#007bff
+}
+a:visited{
+    text-decoration:none;
+    color:#007bff
+}
+
+</mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f6f9fc" padding="40px">
+ <mj-wrapper padding="40px">
+ <mj-section padding-top="20px" padding-bottom="20px" background-color="#fff">
+      <mj-column width="100%">
+        <mj-image href="https://www.aidhedge.org" width="105px" height="13px" align="center"  src="https://s3-eu-west-1.amazonaws.com/aidhedge-newsletter/logo-dark.png"/>
+</mj-column>
+</mj-section>
+
+<mj-section padding-top="20px" padding-bottom="0px" padding-left="20px" background-color="#fff">
+      <mj-column width="100%">
+        <mj-text color="#8898aa" font-size="16px" align="left"  font-weight="400">Hello,</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section padding-bottom="0px" padding-left="20px" background-color="#fff">
+      <mj-column width="100%">
+        <mj-text color="#8898aa" font-size="20px" align="left"  font-weight="500">Thank you for signing up. 
+</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section padding-bottom="0px" padding-left="20px" background-color="#fff">
+      <mj-column width="100%">
+        <mj-text color="#8898aa" font-size="16px" align="left"  font-weight="400">Have we got the right email address to reach you on? To confirm that you can get our emails, just click the button below.</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section padding-bottom="0px" padding-left="20px" background-color="#fff">
+      <mj-column width="100%">
+        <mj-button href="{{data.confirmation_end_point}}" align="left" background-color="#5166af" color="#FFFFFF" border-radius="4px" href="#" inner-padding="10px 17px" padding-bottom="24px" padding-top="20px">Confirm my email address</mj-button>
+</mj-column>
+</mj-section>
+
+<mj-section padding-bottom="0px" padding-left="20px" background-color="#fff">
+      <mj-column width="100%">
+        <mj-text color="#8898aa" font-size="16px" align="left"  font-weight="400">If you need help getting started, or want an introduction to using AidHedge online services, just send us an <a href="contact@aidhedge.org">email</a> or book a Skype session. We look forward to hearing from you!</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#fff">
+      <mj-column>
+        <mj-divider border-width="2px" border-style="solid" border-color="#ECF1F5" />
+      </mj-column>
+
+    </mj-section>
+    <mj-section padding-bottom="50px" padding-top="50px"  padding-left="20px" background-color="#fff">
+      <mj-column width="100%">
+        <mj-text color="#8898aa" font-size="16px" align="left"  font-weight="400">Thanks,<br>
+
+The Aidhedge Team</mj-text>
+
+</mj-column>
+</mj-section>
+
+ </<mj-wrapper>
+ 
+ 
+
+<mj-section background-color="#f6f9fc">
+<mj-column padding-top="20px"  vertical-align="middle">
+        <mj-social align="center" font-size="15px" icon-size="25px" mode="horizontal">
+          <mj-social-element name="twitter" href="https://twitter.com/aidhedge" background-color="#5166af">
+          </mj-social-element>
+
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/company/aidhedge/" background-color="#5166af">
+          </mj-social-element>
+        
+        </mj-social>
+      </mj-column>
+     
+      <mj-column padding-top="30px">
+        <mj-text  align="center" color="#666" font-size="11px">
+     <a href="https://www.aidhedge.org">AIDHEDGE 2018</a>
+        </mj-text>
+    
+      </mj-column>
+     
+    </mj-section>
+    
+  </mj-body>
+</mjml>

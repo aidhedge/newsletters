@@ -1,0 +1,118 @@
+<mjml>
+  <mj-head>
+    <mj-title>Aidhedge newletter</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Helvetica, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px"></mj-text>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+    
+    <mj-style>
+a{
+    text-decoration:none;
+    color:#007bff
+}
+
+a:hover{
+    text-decoration:none;
+    color:#007bbb
+}
+a:visited{
+    text-decoration:none;
+    color:#007bff
+}
+.bold-text{
+    font-weight:500;
+
+}
+.italic-text{
+    font-style:italic
+
+}
+.underline-text{
+    text-decoration:underline;
+
+}
+
+.hide_on_mobile { display: none !important;}
+.hide_on_desktop { display: none !important;}
+@media only screen and (min-width: 480px) { .hide_on_mobile { display: block !important;} }
+@media only screen and (max-width: 480px) { .hide_on_desktop  { display: block !important;} }
+</mj-style>
+  </mj-head>
+
+  <mj-body background-color="#FFF">
+
+
+  
+ <mj-section padding-top="40px" padding-bottom="40px">
+      <mj-column width="600px">
+        <mj-image href="https://www.aidhedge.org" padding-left="10px" width="105px" height="13px" padding-top="0px" align="left"  src="https://s3-eu-west-1.amazonaws.com/aidhedge-newsletter/logga-blue.png"/>
+</mj-column>
+</mj-section>
+    
+
+ <mj-section>
+      <mj-column>
+        <mj-image href="https://story.aidhedge.org/update-partnerships-beta-and-more-5c73d4b1748c" padding="10px" width="600px" src="https://s3-eu-west-1.amazonaws.com/aidhedge-newsletter/newsletter-top-4.png" />
+      </mj-column>
+    </mj-section>
+  
+
+   
+ 
+
+    <mj-wrapper   background-color="#fff">
+   <mj-section padding-top="40px" padding-left="10px" padding-right="10px">
+      <mj-column  width="100%">
+    
+        
+        <mj-text color="#424770" align="center" font-size="24px" line-height="35px" padding="20px 10px 20px 10px" font-weight="300"> <a href="https://story.aidhedge.org/update-partnerships-beta-and-more-5c73d4b1748c">
+        <span class="bold-text">Update!</span>
+        <br>
+        <br>
+        <span class="underline-text">
+        The last two months have been extremely fun and eventful for us. 
+        We have alot to cover, so just click to read more. 
+        </span>
+        </a></mj-text>
+
+
+        <mj-text color="#424770" align="center" padding="20px 10px 0px 10px" font-weight="300">
+        <a href="https://story.aidhedge.org/update-partnerships-beta-and-more-5c73d4b1748c">
+        <span class="bold-text">Pssst ... </span>
+        <br>
+        Why the comic style image? Just click to find out.
+        </a>
+        </mj-text>
+
+        <mj-social padding-top="50px" align="center" font-size="15px" icon-size="25px" mode="horizontal">
+          <mj-social-element name="twitter-noshare" href="https://twitter.com/aidhedge" background-color="#5166af">
+          </mj-social-element>
+
+          <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/aidhedge/" background-color="#5166af">
+          </mj-social-element>
+        
+        </mj-social>    
+      
+           <mj-text  align="center" color="#666" font-size="11px">
+     <a href="https://www.aidhedge.org">AIDHEDGE 2018</a>
+        </mj-text>
+</mj-column>
+</mj-section>
+</mj-wrapper>
+
+
+     <mj-hero
+      height="126px"
+      background-width="100%"
+      background-height="126px"
+      background-url="https://s3-eu-west-1.amazonaws.com/aidhedge-newsletter/bottom-1.png"
+      background-color="#fff"
+      padding-bottom="0px"
+      >
+</mj-hero>
+    
+  </mj-body>
+</mjml>
